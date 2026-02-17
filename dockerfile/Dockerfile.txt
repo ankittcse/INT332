@@ -1,0 +1,7 @@
+FROM ubuntu:latest
+
+LABEL maintainer="INT332 Student"
+
+RUN apt update && apt install -y php
+
+CMD ["echo", "HELLO STUDENT"]
