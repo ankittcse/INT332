@@ -1,42 +1,87 @@
 # INT332
-Docker commands,volume,bind mounts 
-# Docker Basics – INT332
+# 🚀 INT332 - DevOps Lab Practicals
 
-## 1. Check Docker Installation
-docker --version
+Welcome to my DevOps Lab Repository 👨‍💻
+This repository contains **unit-wise practical implementations**, commands, and screenshots based on my coursework.
 
-## 2. Pull an Image
-docker pull ubuntu
+---
 
-## 3. List Images
-docker images
+## 📚 Units Covered
 
-## 4. Run a Container (Foreground)
-docker run ubuntu
+### 🔹 Unit 1: DevOps Infrastructure Basics
 
-## 5. Run a Container (Interactive)
-docker run -it ubuntu bash
+* Containers & Evolution
+* Namespaces & cgroups
+* Docker Architecture
+* Images, Layers & Registries
 
-## 6. Run a Container (Detached Mode)
-docker run -d ubuntu
+📁 [View Unit 1](./Unit-1-DevOps-Basics)
 
-## 7. List Running Containers
-docker ps
+---
 
-## 8. List All Containers (running + stopped)
-docker ps -a
+### 🔹 Unit 2: Docker & Image Management
 
-## 9. Stop a Running Container
-docker stop <container_id>
+* Dockerfile & Image Creation
+* Networking & Storage
+* Volumes vs Bind Mounts
+* Docker Hub & GHCR
 
-## 10. Remove a Container
-docker rm <container_id>
+📁 [View Unit 2](./Unit-2-Docker)
 
-## 11. Remove an Image
-docker rmi <image_id>
+---
 
-## 12. Container Logs
-docker logs <container_name>
+### 🔹 Unit 3: Docker Compose & Microservices
 
-## 13. Container Terminal Access
+* Microservices Architecture
+* docker-compose.yml
+* Multi-container Applications
+
+📁 [View Unit 3](./Unit-3-Docker-Compose)
+
+---
+
+### 🔹 Unit 4: Maven Build Automation
+
+* POM & Lifecycle
+* Dependency Management
+* Maven + Docker Integration
+
+📁 [View Unit 4](./Unit-4-Maven)
+
+---
+
+### 🔹 Unit 5: CI/CD Pipelines
+
+* GitHub Actions
+* Jenkins Pipelines
+* Docker Integration
+
+📁 [View Unit 5](./Unit-5-CI-CD)
+
+---
+
+## 🛠️ Tools Used
+
+* Docker 🐳
+* GitHub Actions ⚙️
+* Jenkins 🔧
+* Maven 📦
+
+---
+
+## 📸 Practical Proof
+
+Each unit contains:
+
+* ✅ Commands executed
+* ✅ Code files
+* ✅ Screenshots of output
+
+---
+
+## 💡 Author
+
+**Ankit Kishor**
+
+
 docker exec -it <container_name> bash
